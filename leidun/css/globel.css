@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* @author ------- shauning
+ * @design ------- raven
+ * @time   ------- 2015-01-25*/
+/*reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,del,dfn,em,img,ins,strong,sub,sup,dd,dl,dt,li,ol,ul,fieldset,form,label,legend {margin:0;padding:0;}
+section,article,aside,header,footer,nav,dialog,figure,hgroup {display:block;}
+h1, h2, h3, h4, h5, h6 {font-size:100%; color: #333; font-weight:normal;}
+address, cite, em, i {font-style:normal;}
+li {list-style-type:none;}
+fieldset, img {border:0;}
+label,button {cursor: pointer;}
+select,input,textarea {font-size:12px;line-height:1.2em;outline:none;}
+body {min-width:1000px;height:100%;background:#fff url(../images/bg_body.png) repeat-y 0 0;font:12px/1.6em "\5b8b\4f53","Arial Narrow";color:#666;}
+a {color:#333;outline:none;text-decoration:none;}
+a:hover {text-decoration: underline;}
+/*base*/
+.wrapper {padding:60px 0 0 248px;}
+.ico {position: absolute; display: block; text-indent: -999px; overflow: hidden;}
+.arrow {width: 0; height: 0; font-size: 0; border: 5px #fff solid; border-color: #2c2f32 #2c2f32 #2c2f32 #fff; overflow: hidden;}
+.btnico {display: block; text-indent: -9999px; overflow: hidden;}
+.btnlink {display: inline-block; width: 78px; height: 37px; background: url(../images/btnlink.png); font-size: 14px; line-height: 37px; text-align: center;}
+.fontblue {color: #007fff;}
+
+.header {position: fixed; left: 0; top: 0; width: 100%; height: 60px; background: #131419;}
+.header p {float: right; margin-right: 25px; font-size: 14px; line-height: 60px;}
+.header_logo {float: left; width: 288px; height: 60px; margin-left: 25px;}
+.header_logo a {position: relative; display: block; height: 60px;}
+.header_logo i {position: absolute; left: 0; top: 0; display: block; width: 288px; height: 60px; background: url(../images/logo.png);}
+.gmenu {position: fixed; left: 0; top: 60px; width: 247px;}
+.gmenu a {color: #aaa;}
+.gmenu_user {position: relative; margin: 20px 0 0 20px; color: #aaa; line-height: 20px;}
+.gmenu_user img {float: left; width: 60px; height: 60px; margin-right: 20px;}
+.gmenu_user strong {display: block; font-size: 16px; color: #fff;}
+.gmenu_set {position: absolute; right: 10px; top: 0; width: 19px; height: 19px; background: url(../images/ico_1.png);}
+
+.gnav {margin-top: 20px;}
+.gnav_main_tt {height: 30px; background: #393c3e; color: #aaa; line-height: 30px; text-indent: 20px;}
+.gnav_sec {padding-left: 20px;}
+.gnav_sec li {height: 24px; margin: 15px 0 10px; font-size: 14px; line-height: 24px;}
+.gnav_sec a {position: relative; display: block; padding-left: 32px;}
+.gnav_sec .ico {left: 0; top: 0; width: 24px; height: 24px; background: url(http://placehold.it/24x24);}
+.gnav_sec .cur {color: #fff; font-weight: bold;}
+.gnav_sec .arrow {position: absolute; right: 10px; top: 7px;}
+
+a:hover .ico {
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+
+.cssRotate:hover {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+
+@keyframes navIcoMove
+{
+	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
+	60%   {transform: rotate(0deg) scaleX(0) scaleY(0)}
+	100% {transform: rotate(0deg) scaleX(1) scaleY(1)}
+}
+@-webkit-keyframes navIcoMove
+{
+	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
+	60%   {transform: rotate(0deg) scaleX(0) scaleY(0)}
+	100% {transform: rotate(0deg) scaleX(1) scaleY(1)}
+}
+@-moz-keyframes navIcoMove
+{
+	0%   {transform: rotate(360deg) scaleX(1) scaleY(1)}
+	60%   {transform: rotate(0deg) scaleX(0) scaleY(0)}
+	100% {transform: rotate(0deg) scaleX(1) scaleY(1)}
+}

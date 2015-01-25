@@ -1,0 +1,33 @@
+@charset "utf-8";
+.default_userinfo {height: 245px; background: #f6f6f6 url(../images/bg_default_userinfo.png) no-repeat right bottom; border-bottom: 1px #ccc solid; overflow: hidden;}
+.default_userinfo .gmenu_user, .default_userinfo .gmenu_user strong {color: #333;}
+.default_userinfo .gmenu_user {position: relative; padding-left: 90px; margin: 40px 0 0 40px; zoom:1;}
+.default_userinfo .gmenu_user div {margin: 10px 0 20px;}
+.default_userinfo .gmenu_user p {margin-top: 30px;}
+.default_userinfo .gmenu_user img {position: absolute; left: 0; top: 0;}
+.default_userinfo .btnlink {margin-right: 20px;}
+
+.entrance {margin: 0 0 0 40px;}
+.entrance li {width: 290px; height: 83px; margin-top: 25px;}
+.entrance a {position: relative; display: block; height: 83px; padding-left: 80px; border: 1px #ccc solid; overflow: hidden; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -webkit-box-shadow: 0px 1px 1px #ccc; -moz-box-shadow: 0px 1px 1px #ccc; box-shadow: 0px 1px 1px #ccc;}
+.entrance span {position: absolute; right: 20px; top: 34px;}
+.entrance a:hover {text-decoration: none;}
+.entrance .ico {left: 17px; top: 17px; width: 50px; height: 50px; background: url(http://placehold.it/50x50);}
+.entrance strong {display: block; margin: 20px 0 5px; font-size: 14px;}
+
+.querybar {height: 60px; border-bottom: 1px #ccc solid;}
+.querybar_btn {float: left; width: 32px; height: 32px; margin: 15px 0 0 20px;}
+.querybar_btn_add {background: url(../images/ico_2.png);}
+.querybar_btn_menu {background: url(../images/ico_3.png);}
+.querybox {margin: 20px 0 0 20px;}
+.querybox_col {height: 50px; border-bottom: 1px #ccc solid;}
+.querybox_col label {float: left; display: block; width: 80px; font-size: 14px; color: #333; text-indent: 20px; line-height: 50px;}
+.querybox_col .input {width: 100px; height: 14px; margin: 17px 0 0 0; font-size: 12px; line-height: 14px; border:none;}
+.querybox_col p {line-height: 50px;}
+.querybox_col .tip {color: #ff7f00;}
+.querybox_col .loadimg {margin-top: 17px;}
+.querybox_last {margin: 30px 0 0 80px;}
+.inputbox {float: left; _display: inline; height: 24px; background: #b9d7fd; padding: 0 10px; margin: 13px 20px 0 0; line-height: 24px; overflow: hidden;}
+.querybox_result {width: 551px; height: 98px; background: url(../images/querybox_result.png); padding-left: 100px; margin: 10px 0; color: #333; line-height: 110px;}
+.querybox_result span {float: left; display: block; width: 165px;}
+.querybox_result strong {font-size: 14px; color: #f00;}
