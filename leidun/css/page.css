@@ -33,10 +33,16 @@
 .btnlink_photo {width: 104px; background-position: 0 -35px;}
 .btnlink_case {width: 104px; background-position: 0 -70px;}
 .querybox_last {margin: 30px 0 0 80px;}
-.inputbox {float: left; _display: inline; height: 24px; background: #b9d7fd; padding: 0 10px; margin: 13px 20px 0 0; line-height: 24px; overflow: hidden;}
+.inputbox {float: left; _display: inline; height: 24px; background: #b9d7fd; padding: 0px; margin: 13px 20px 0 0; line-height: 24px; overflow: hidden;-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.inputbox a{ cursor:pointer;background: url(../images/dot2.png) no-repeat; width:24px; height:24px; display:block; float:left;}
+.inputbox a:hover{ background: url(../images/dot2.png) no-repeat 0 -24px;background-color:#26487D;}
+.inputbox input{ background:#FFF; border:1px solid #888888; height:24px; line-height:24px; margin-right:5px; float:left;}
+.inputbox span{ background:#B9D7FD; display:block; float:left; padding:0 5px; }
+.querybox_result {width: 551px; height: 98px; background: url(../images/querybox_result.png); padding-left: 100px; margin: 10px 0; color: #333; line-height: 110px;}
+.span_bg{ border:1px solid #B9D7FD;}
+.span_bg span{ background:#FFF;}
 .inputmanual {float: left; width: 100px; height: 30px; background: url(../images/bg_inputmanual.png); margin: 10px 20px 0 0; line-height: 30px; text-indent: 5px;}
 .inputmanual .input { width: 40px; margin-top: 8px;}
-.querybox_result {width: 551px; height: 98px; background: url(../images/querybox_result.png); padding-left: 100px; margin: 10px 0; color: #333; line-height: 110px;}
 .querybox_result span {float: left; display: block; width: 165px;}
 .querybox_result strong {font-size: 14px; color: #f00;}
 .querybox_result .input { width: 50px;}
