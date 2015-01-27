@@ -15,12 +15,13 @@ body {min-width:1300px;height:100%;background:#fff url(../images/bg_body.png) re
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {text-decoration: underline;}
 /*base*/
-.wrapper {max-width: 1000px; padding:60px 0 0 248px;}
+.wrapper {width: 1000px; max-width: 1000px; padding:60px 0 0 248px;}
 .ico {position: absolute; display: block; text-indent: -999px; overflow: hidden;}
 .arrow {width: 0; height: 0; font-size: 0; border: 5px #fff solid; border-color: #2c2f32 #2c2f32 #2c2f32 #fff; overflow: hidden;}
 .btnico {display: block; text-indent: -9999px; overflow: hidden;}
 .btnlink {display: inline-block; width: 78px; height: 37px; background: url(../images/btnlink.png); font-size: 14px; line-height: 37px; text-align: center;}
 .fontblue {color: #007fff;}
+.sup {position: absolute; display: block; height: 20px; background: #c10000; padding: 0 5px; color: #fff; font-family: "Arial"; line-height: 20px; -moz-border-radius:19px;-webkit-border-radius:19px;border-radius:19px; overflow: hidden;}
 
 .header {position: fixed; left: 0; top: 0; width: 100%; height: 60px; background: #131419;}
 .header p {float: right; margin-right: 25px; font-size: 14px; line-height: 60px;}
@@ -39,10 +40,21 @@ a:hover {text-decoration: underline;}
 .gnav_sec {padding-left: 20px;}
 .gnav_sec li {height: 24px; margin: 15px 0 10px; font-size: 14px; line-height: 24px;}
 .gnav_sec a {position: relative; display: block; padding-left: 32px;}
-.gnav_sec .ico {left: 0; top: 0; width: 24px; height: 24px; background: url(http://placehold.it/24x24);}
+.gnav_sec .ico {left: 0; top: 3px; width: 17px; height: 17px;background: url(../images/ico_6.png);}
 .gnav_sec .cur {color: #fff; font-weight: bold;}
 .gnav_sec .arrow {position: absolute; right: 10px; top: 7px;}
-
+.gnav_sec .sup {left: 98px; top: 3px;}
+.gnav_sec_1 .cur .ico {background-position: 0 -18px;}
+.gnav_sec_2 .ico {background-position: -18px 0;}
+.gnav_sec_2 .cur .ico {background-position: -18px -18px;}
+.gnav_sec_3 .ico {background-position: -36px 0;}
+.gnav_sec_3 .cur .ico {background-position: -36px -18px;}
+.gnav_sec_4 .ico {background-position: -54px 0;}
+.gnav_sec_4 .cur .ico {background-position: -54px -18px;}
+.gnav_sec_5 .ico {background-position: -72px 0;}
+.gnav_sec_5 .cur .ico {background-position: -72px -18px;}
+.gnav_sec_6 .ico {background-position: -90px 0;}
+.gnav_sec_6 .cur .ico {background-position: -90px -18px;}
 .datemod input {width: 100px; margin: 0 5px;}
 
 a:hover .ico {

@@ -1,9 +1,12 @@
 @charset "utf-8";
+.wrapper_setup {width: auto; max-width: none;}
+.setup_contain {width: 1000px;}
 .setup_mainnav .nav .cur, .btnlink_pre {background: url(../images/setup.png) no-repeat 0 0;}
 .setup_mainnav {height: 70px; background: #eee;}
 .btnlink_pre {float: left; width: 73px; height: 36px; background-position: 0 -42px; margin: 18px 0 0 20px; text-indent: 10px;}
 .setup_mainnav .nav {float: left; margin-top: 18px;}
 .setup_mainnav .nav a {float: left; display: block; width: 121px; height: 36px; margin-left: 10px; font-size: 14px; line-height: 36px; text-align: center;}
-.setup_secnav {height: 42px; text-align: center; border-bottom: 1px #ccc solid;}
+.setup_secnav {height: 42px; border-bottom: 1px #ccc solid;}
+.setup_secnav .nav {margin-left: 260px;}
 .setup_secnav a {display: inline-block; padding: 0 10px; font-size: 14px; line-height: 38px;}
 .setup_secnav .cur {border-bottom: 5px #111 solid;}
