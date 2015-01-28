@@ -1,5 +1,4 @@
 @charset "utf-8";
-.wrapper_setup {width: auto; max-width: none;}
 .setup_contain {width: 1000px;}
 .setup_mainnav .nav .cur, .btnlink_pre {background: url(../images/setup.png) no-repeat 0 0;}
 .setup_mainnav {height: 70px; background: #eee;}

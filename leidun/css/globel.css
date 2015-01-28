@@ -15,7 +15,8 @@ body {min-width:1300px;height:100%;background:#fff url(../images/bg_body.png) re
 a {color:#333;outline:none;text-decoration:none;}
 a:hover {text-decoration: underline;}
 /*base*/
-.wrapper {width: 1000px; max-width: 1000px; padding:60px 0 0 248px;}
+.wrapper {width: 1000px; min-width: 1000px; padding:60px 0 0 248px;}
+.wrapper_auto {width: auto;}
 .ico {position: absolute; display: block; text-indent: -999px; overflow: hidden;}
 .arrow {width: 0; height: 0; font-size: 0; border: 5px #fff solid; border-color: #2c2f32 #2c2f32 #2c2f32 #fff; overflow: hidden;}
 .btnico {display: block; text-indent: -9999px; overflow: hidden;}
