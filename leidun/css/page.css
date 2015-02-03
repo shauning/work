@@ -46,6 +46,7 @@
 .span_bg span{ background:#FFF;}
 .inputmanual {float: left; width: 146px; height: 30px; background: url(../images/bg_inputmanual.png); margin: 10px 20px 0 0; line-height: 30px; text-indent: 5px;}
 .inputmanual .input { width: 80px; margin-top: 8px;}
+.inputmanual_error {background-position: 0 -31px;}
 .inputmanual em {color: #c10000;}
 .querybox_result span {float: left; display: block; width: 165px;}
 .querybox_result strong {font-size: 14px; color: #f00;}
