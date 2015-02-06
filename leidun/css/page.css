@@ -99,3 +99,23 @@ text-indent: -9999px;}
 .queryadd_choice .close {position: absolute; right: 15px; top: 24px; width: 12px; height: 12px; background: url(../images/ico_10.png);}
 .queryadd_col_lock {border-style: dotted;}
 .queryadd .btnlink {width: 151px; height: 59px; background: url(../images/btnlink3.png); margin-top: 45px; font-size: 20px; line-height: 59px;}
+
+/*search*/
+.search_tt {height: 50px; border-bottom: 1px #ccc solid;}
+.search_tt a {float: left; display: block; width: 110px; background: url(../images/search_tt.png); font-size: 14px; line-height: 50px; text-align: center; border-right: 1px #ccc solid;}
+.search_tt .cur {background-position: 0 -51px; font-weight: bold;}
+.querybox_search .querybox_col label {position: relative; width: 120px; font-weight: bold;}
+.querybox_search .querybox_col label em {position: absolute; left: -20px; top: 0; color: #f00; font-weight: normal;}
+.querybox_search .input {height: 16px; padding: 6px 10px; margin-top: 10px; line-height: 16px; border: 1px #aaa solid;}
+.querybox_search .input_w1 {width: 300px;}
+.querybox_search select {margin: 15px 10px 0 0;}
+.querybox_search .querybox_last {margin-left: 120px;}
+.search_result {margin: 20px 0 0 20px;}
+.search_result_tt {height: 60px; background: #e7fff3 url(../images/search_result_tt.png) no-repeat 0 0; padding-left: 50px; margin-bottom: 10px; overflow: hidden;}
+.search_result_tt span {display: block; margin: 10px 0 0 0; color: #333;}
+.resulttable {height: auto;}
+.resulttable th {height: 40px; color: #333;}
+.resulttable td {height: 80px;}
+.resulttable td strong {font-size: 18px; color: #036;}
+.resultorder {display: inline-block; width: 8px; height: 12px; background: url(../images/resultorder.png); margin: 0 0 0 3px; overflow: hidden;}
+.resultorder a {display: block; width: 8px; height: 6px; overflow: hidden;}
