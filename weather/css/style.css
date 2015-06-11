@@ -1,6 +1,6 @@
 @charset "utf-8";
 *{padding:0; margin:0;}
-html, body {height: 100%; background: #21aec0;}
+html, body {height: 100%; background: #45c7c9;}
 html, body {font: 20px/1.5 "Helvetica Neue", Helvetica, Microsoft Yahei, STHeiTi, sans-serif; color:#fff;}
 
 @font-face {font-family: 'weather';
@@ -10,8 +10,8 @@ html, body {font: 20px/1.5 "Helvetica Neue", Helvetica, Microsoft Yahei, STHeiTi
     url('../font/weather.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-.today {padding: 50px 0; font-size: 0.8rem; color: #80deea; text-align: center; letter-spacing: 2px;}
-.today strong {display: block; font-size: 1.5rem; color: #9fe653; line-height: 2;}
+.today {padding: 50px 0; font-size: 0.8rem; color: #cef2f2; text-align: center; letter-spacing: 2px;}
+.today strong {display: block; font-size: 1.5rem; color: #fee241; line-height: 2;}
 
 .ico {display: inline-block; color: #fff; font-style: normal; font-family: "weather"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
 .ico_sun:before {content: "\e600";}
